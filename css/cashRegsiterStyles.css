@@ -1,0 +1,174 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: #0a0a23;
+  width: 100%;
+  height: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  font-family: roboto;
+  position: relative;
+}
+
+h1 {
+  display: flex;
+  margin-top: 60px;
+  font-size: 3em;
+  color: white;
+}
+
+#change-due {
+  color:  white;
+  font-size: 1em;
+}
+
+#change-due p {
+  color:  white;
+  font-size: 1em;
+  margin: 0.1px auto;
+}
+
+.status-msg {
+  display: none;
+  color: white;
+  margin: 0 auto;
+}
+
+.screen-price {
+  border: 10px solid #8abefa;
+  width: 200px;
+  padding: 5px 40px;
+  margin: auto 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.cube {
+  background: linear-gradient(#8abefa, #689cef);
+  margin: auto 50px;
+  width: 40px;
+  height: 30px;
+}
+
+.register {
+   background: linear-gradient(#689cef, #3680f8);
+   width: 320px;
+   height: 250px;
+   border-radius: 30px 30px 0 0;
+}
+
+.drawer {
+  background: linear-gradient(#3680f8, #2965de); 
+  width: 100%;
+  height: 60px;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round {
+  background: #0a0a23;
+  width: 19px;
+  height: 19px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#divider {
+  margin: 30px auto;
+}
+
+
+
+#cash {
+  font-size: 16px;
+  padding: 5px;
+}
+
+#divider p {
+  text-align: center;
+  color: white;
+}
+
+#purchase-btn {
+  background: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  cursor: pointer;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 3px solid #feac32;
+  border-color: #fecc4c #cb8f34 #cb8f34 #fecc4c;
+}
+
+#purchase-btn:active {
+  background: #fecc4c;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  cursor: pointer;
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  /*border: 3px solid ;*/
+  border-color:#cb8f34 #fecc4c #fecc4c #cb8f34;
+}
+
+
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 22px);
+ grid-template-rows: repeat(3, 1fr);
+ row-gap: 5px;
+ column-gap: 1px;
+ position: absolute;
+ 
+}
+
+.keys {
+  background: #0a0a23;;
+  width: 18px;
+  height: 18px;
+  display: grid;
+  border-radius: 3px;
+}
+
+#list-container {
+  background:#fff3d4;
+  width: 170px;
+  height: 220px;
+  margin-top: 20px;
+  margin-left: 130px;
+  position: absolute;
+  border-radius: 0 25px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#list-container p {
+  color: black;
+  margin: 0.5px 10px;
+  text-align: left;
+}
+
+#change-due {
+  display: none;
+  color: white;
+}
+
+
+
+#list-container h2 {
+  font-size: 16px;
+  margin: 8px;
+}
