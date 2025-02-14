@@ -1,5 +1,5 @@
 # The Cash Register
-Projet de caisse enregisteuse 
+Projet de caisse enregistreuse 
 ## Utilisation 
 - Téléchargez le dossier.zip dans le code
 - Dézippez le dossier
