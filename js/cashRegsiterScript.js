@@ -219,3 +219,9 @@ purchaseBtn.addEventListener("click", () => {
   cash.value = "";
   
 });
+
+cash.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    purchaseBtn.click();
+  }
+})
