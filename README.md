@@ -14,7 +14,6 @@ Un **Cash Register Project** développé avec **JavaScript** permettant de gére
 
 - **JavaScript** : logique et calculs.
 - **HTML / CSS** : structure et style de l’interface.
-- Optionnel : **Tailwind CSS** pour le style rapide et responsive.
 
 ## 🚀 Installation
 
